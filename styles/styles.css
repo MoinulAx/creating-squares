@@ -1,0 +1,30 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.body {
+  margin: 10px;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  border: 4px solid black;
+  padding: 300px 280px;
+}
+.container__buttonEn {
+  border: 2px solid black;
+  padding: 20px 80px;
+  border-radius: 30px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+.container__buttonEn:active {
+  background-color: aliceblue;
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,10 @@
+body{
+    display:flex;
+
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+
+}
