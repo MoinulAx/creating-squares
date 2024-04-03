@@ -7,7 +7,7 @@ const boxes = document.getElementsByTagName('div')
 enterButton.addEventListener('click', (event) =>{
     const colorItems = document.createElement('div')
     colorItems.setAttribute('class','container__items')
-    boxes.styles.border = colorArray[Math.floor[]]
+    boxes.styles.border = colorArray[Math.floor(Math.random()*colorArray.length)]
 
 
 
