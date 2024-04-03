@@ -8,9 +8,32 @@ const mainContainer = document.querySelector('main')
 enterButton.addEventListener('click', (event) =>{
     const colorItems = document.createElement('div')
     colorItems.setAttribute('class','items')
+    
+    
+    
+    
+    
     colorItems.style.borderColor = colorArray[Math.floor(Math.random()*colorArray.length)]
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     if(boxes.length === 0){
         mainContainer.append(colorItems)
+    
+    
+    
+    
+    
+    
+    
+    
     }else {
         boxes[boxes.length-1].append(colorItems)
         if(boxes.length === 19){
