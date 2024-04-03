@@ -26,5 +26,10 @@
   background-color: aliceblue;
   color: black;
 }
+.container__container__items {
+  border: 10px solid;
+  height: 100%;
+  width: 100%;
+}
 
 /*# sourceMappingURL=styles.css.map */
